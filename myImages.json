@@ -1,0 +1,65 @@
+{
+    "robots": [
+        {
+            "imgPath": "img/robots/AM-ihavenomouth.jpeg",
+            "alignment": "Evil",
+            "name": "A.M.",
+            "date": "10/31/1995"
+        },
+        {
+            "imgPath": "img/robots/marvin.jpg",
+            "alignment": "Nutral",
+            "name": "Marvin",
+            "date": "04/29/2005"
+        },
+        {
+            "imgPath": "img/robots/moby-the-robot.jpg",
+            "alignment": "Good",
+            "name": "Moby",
+            "date": "12/31/1999"
+        },
+        {
+            "imgPath": "img/robots/star-trek-data.jpg",
+            "alignment": "Good",
+            "name": "Data",
+            "date": "9/28/1987"
+        },
+        {
+            "imgPath": "img/robots/general-grievous.jpg",
+            "alignment": "Evil",
+            "name": "General Grievous.",
+            "date": "05/19/2005"
+        },
+        {
+            "imgPath": "img/robots/Dalek.jpg",
+            "alignment": "Evil",
+            "name": "Dalek (species)",
+            "date": "12/21/1963"
+        },
+        {
+            "imgPath": "img/robots/baymax.jpg",
+            "alignment": "Good",
+            "name": "Baymax",
+            "date": "11/7/2014"
+        },
+        {
+            "imgPath": "img/robots/starwarsbots.jpg",
+            "alignment": "Good",
+            "name": "C-3PO, R2-D2, & BB-8",
+            "date": "05/16/1999"
+        },
+        {
+            "imgPath": "img/robots/THEIRONGIANT_FEATURE.jpg",
+            "alignment": "Good",
+            "name": "The Iron Giant",
+            "date": "07/31/1999"
+        },
+        {
+            "imgPath": "img/robots/Wall-e.jpg",
+            "alignment": "Good",
+            "name": "Wall-E",
+            "date": "06/27/2008"
+        }
+        
+  ]
+}
