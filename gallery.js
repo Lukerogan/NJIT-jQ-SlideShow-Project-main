@@ -26,18 +26,17 @@ function fetchJSON() {
 
     console.log(mImages)
   console.log(data.robots)
-  })
-  
   swapPhoto()  // After JSON is loaded, call swapPhoto() to display the first image
+  })
 }
 
 // Function to swap and display the next photo in the slideshow
 function swapPhoto() {
   let currentPhoto = mImages[mCurrentIndex];// Access mImages[mCurrentIndex] to update the image source and details
   $('#photo').attr('src', currentPhoto.imgPath);// Update the #photo element's src attribute with the current image's path
-  $('.location').text("Alignment: " + 'currentPhoto.alignment');
-  $('.description').text("Name: " + 'currentPhoto.name');
-  $('.date').text("Date: " + 'currentPhoto.date');// Update the .location, .description, and .date elements with the current image's details
+  $('.location').text("Alignment: " + currentPhoto.alignment);
+  $('.description').text("Name: " + currentPhoto.name);
+  $('.date').text("Date: " + currentPhoto.date);// Update the .location, .description, and .date elements with the current image's details
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
