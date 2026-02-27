@@ -25,15 +25,19 @@ body {
     width: 100%;
     text-align: center;
 
+
 }
 
 /* Style for the photo displayed in the slideshow */
 .thumbnail {
     width: 100%;
     /* max-width: 100%; */
+    /* max-width: 100%; */
     height: auto;
     border-radius: 4px;
     /* Optional: Add shadow here */
+        max-height:450px;
+        min-height: 450px;
         max-height:450px;
         min-height: 450px;
 }
@@ -42,6 +46,7 @@ body {
 .banner {
     font-size: 2rem; /* Increased font size for better readability */
     font-weight: bold;
+    color: #e7e7e7;
     color: #e7e7e7;
     /* Optional: Customize the text color */
 }
@@ -73,6 +78,7 @@ body {
     background-attachment: fixed;
     border-radius: 4px;
     color: #e7e7e7;
+    color: #e7e7e7;
     font-size: 1rem; /* Slightly larger text for readability */
 }
 
@@ -86,6 +92,8 @@ Make it animate nicely. You'll need CSS3 for this */
 .rot90 {
     transform: rotate(90deg);
     transition: transform 0.3s ease;
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
 }
 
 /* Add CSS styles to rotate the element 180deg
@@ -93,11 +101,15 @@ Make it animate nicely. You'll need CSS3 for this */
 .rot180 {
     transform: rotate(180deg);
     transition: transform 0.3s ease;
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
 }
 
 /* Add CSS styles to rotate the element 270deg
 Make it animate nicely. You'll need CSS3 for this */
 .rot270 {
+    transform: rotate(270deg);
+    transition: transform 0.3s ease;
     transform: rotate(270deg);
     transition: transform 0.3s ease;
 }
